@@ -132,7 +132,7 @@ def generate_entries(num_entries):
 def main():
     num_entries = 25000
     entries = generate_entries(num_entries)
-    with open('sam.json', 'w') as file:
+    with open('qbul.json', 'w') as file:
         json.dump(entries, file, indent=4)
     print(f"Successfully generated {num_entries} entries and saved to 'sam.json'.")
 
